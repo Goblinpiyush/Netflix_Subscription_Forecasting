@@ -10,6 +10,6 @@ The dataset (`netflix_subscriptions_csv`) contains historical subscriber data wi
 - `Subscribers`: The number of subscribers at that time period.
 
 ##  Summary
-Data Preprocessing: Load and preprocess the dataset, converting 'Time Period' to datetime format and setting it as the index.
-Model Fitting: Fit an ARIMA model to the quarterly data with parameters (p=1, d=1, q=1).
-Forecasting: Use the fitted ARIMA model to predict the number of subscribers for the next five quarters and visualize the results.
+Data Preprocessing: Loading and preprocessing the dataset, converting 'Time Period' to datetime format and setting it as the index.
+Model Fitting: Fitting an ARIMA model to the quarterly data with parameters (p=1, d=1, q=1).
+Forecasting: Using the fitted ARIMA model to predict the number of subscribers for the next five quarters and visualize the results.
